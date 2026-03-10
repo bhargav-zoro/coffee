@@ -36,3 +36,12 @@ res.send("Order saved to MongoDB")
 app.listen(3000,()=>{
 console.log("Server running on http://localhost:3000")
 })
+const mongoose = require("mongoose");
+
+mongoose.connect("mongodb+srv://bhargav:bhargavsree@cluster0.jwogooj.mongodb.net/coffeeDB")
+.then(() => {
+    console.log("MongoDB Connected");
+})
+.catch((err) => {
+    console.log(err);
+});
