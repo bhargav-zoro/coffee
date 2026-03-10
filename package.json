@@ -16,5 +16,13 @@
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "mongoose": "^9.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhargav-zoro/coffee.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bhargav-zoro/coffee/issues"
+  },
+  "homepage": "https://github.com/bhargav-zoro/coffee#readme"
 }
